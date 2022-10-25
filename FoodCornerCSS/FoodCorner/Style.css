@@ -1,0 +1,108 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: papayawhip;
+  padding-top: 20px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+  padding-left: 100px;
+    animation-name: example;
+  animation-duration: 4s;
+}
+@keyframes example {
+  from {background-color: lightcoral;}
+  to {background-color: papayawhip;}
+}
+p{
+    text-align: center;
+}
+h1{
+  text-decoration: underline solid lightcoral;  
+text-align: center;
+font-family: "Times New Roman" bold;
+color: tomato;
+text-shadow: 4px 4px 4px #000000;
+    border-style:  outset;
+       }
+
+nav {
+    
+    background: pink;
+    padding: 6px 0 6px 40px;
+}
+nav:hover {
+
+    color:#ecf2f3;
+}
+.para{
+    font-family: serif;
+    color: purple;
+        font-style: italic;
+}
+.list{
+    font-family: monospace;
+
+}
+section#steps{
+    font-family: serif;
+    color: brown;
+}
+ img{
+   width: 300px;
+height: 300px;
+      border: 3px solid #777;
+    border-radius: 25%;
+}
+img:hover {
+  border: 1px solid #777;
+}
+.Link{
+    
+    font-style: italic;
+}
+
+footer{
+    padding: inherit;
+    text-align: center;
+    text-decoration-style: dotted;
+}
+.style{
+
+    color: red;
+}
+/* For deskstop: */
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: papayawhip;
+      margin: 0% 5% 3% 6%;
+    padding: 0% 3%;
+  }
+    @keyframes example {
+  from {background-color: lightcoral;}
+  to {background-color: papayawhip;}
+}
+}
+    
+/* For mobile phones: */
+[class*="A-"] {
+  width: 80%;
+    margin: 0% 5% 3% 6%;
+    padding: 0% 3%;
+}
+@media only screen and (min-width: 600px) {
+    { width: 80%;}
+}
+  .para{
+      font-size: 100%;
+    font-family: serif;
+    color: purple;
+        font-style: italic;
+}
+nav a{
+    font-size: 60%;
+    margin: 0 8px;
+}
+footer {
+    font-size: 80%;
+    margin: 0 8px;
+
+}
